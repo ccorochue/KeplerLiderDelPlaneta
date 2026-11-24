@@ -1,11 +1,16 @@
 package com.kepler.keplerjuego.model;
 
+/**
+ * Nivel final, dedicado a proteger la colonia de la amenaza de un asteroide.
+ */
 public class NivelTres extends Nivel {
 
+    /** Crea el nivel El asteroide con sus metas y límite de errores. */
     public NivelTres() {
         super(3, "El asteroide", 1100, 90, 80, 3);
     }
 
+    /** Carga los cuatro eventos y sus alternativas para el tercer nivel. */
     @Override
     protected void cargarEventos() {
         // Evento 1: Lluvia de micrometeoritos

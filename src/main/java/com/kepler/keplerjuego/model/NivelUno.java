@@ -1,11 +1,16 @@
 package com.kepler.keplerjuego.model;
 
+/**
+ * Nivel inicial, centrado en el crecimiento y la preparación de la colonia.
+ */
 public class NivelUno extends Nivel {
 
+    /** Crea el nivel Crecer con sus metas y límite de errores. */
     public NivelUno() {
         super(1, "Crecer", 700, 85, 20, 3);
     }
 
+    /** Carga los cuatro eventos y sus alternativas para el primer nivel. */
     @Override
     protected void cargarEventos() {
         // Evento 1: Granizada inesperada
