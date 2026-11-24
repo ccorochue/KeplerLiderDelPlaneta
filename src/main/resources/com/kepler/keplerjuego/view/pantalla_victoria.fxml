@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="1000.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/ventana_victoria.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="347.0" layoutY="488.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="306.0" style="-fx-background-color: #6BCB2B; -fx-background-radius: 50px; -fx-border-color: #53A01D; -fx-border-style: solid; -fx-border-width: 4px; -fx-border-radius: 50px; -fx-cursor: hand;" text="VOLER A JUGAR" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
