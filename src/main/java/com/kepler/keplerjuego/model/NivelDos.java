@@ -1,11 +1,16 @@
 package com.kepler.keplerjuego.model;
 
+/**
+ * Segundo nivel, en el que la colonia debe afrontar una epidemia.
+ */
 public class NivelDos extends Nivel {
 
+    /** Crea el nivel La epidemia con sus metas y límite de errores. */
     public NivelDos() {
         super(2, "La epidemia", 900, 90, 45, 3);
     }
 
+    /** Carga los cuatro eventos y sus alternativas para el segundo nivel. */
     @Override
     protected void cargarEventos() {
         // Evento 1: Brote viral desconocido
